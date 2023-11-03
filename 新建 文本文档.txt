@@ -1,0 +1,13 @@
+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
+
+
+echo "# AsukaWus" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AsukaWus/AsukaWus.git
+git push -u origin main
+
+git config --global user.email "AsukaWus@outlook.com"
+git config --global user.name "AsukaWus"
