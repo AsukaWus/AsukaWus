@@ -17,7 +17,12 @@ h1 {
 h2 {
   font-size: 130%;
 }
-
+div h2 {
+  color: black;
+}
+div h3 {
+  color: #d12c47;
+}
 #guarantee {
   padding: 25px 25px 25px 25px;
   border: thin solid black;
