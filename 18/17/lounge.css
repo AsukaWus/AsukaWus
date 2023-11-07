@@ -42,3 +42,30 @@ background-image: url(images/cocktail.gif);
 background-repeat: repeat-x;
 text-align: center;
 }
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
+
+
+div footer {
+font-size: 0.5em;
+text-align: center;
+line-height: normal;
+margin-top: 30px;
+}
+.cd {
+	font-style: italic;
+}
+
+.artist {
+	font-weight: bold;
+}
