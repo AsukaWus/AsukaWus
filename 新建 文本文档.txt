@@ -1,5 +1,4 @@
-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
-
+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
 
 echo "# AsukaWus" >> README.md
 git init
