@@ -15,7 +15,7 @@ body {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 0px 10px 10px;
+  margin:           0px 10px 10px 10px;
 }
 
 #sidebar {
@@ -56,17 +56,7 @@ a:visited {
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
 }
-
 .sidebar{
   width: 280px;
   float: right;
-}
-
-.allcontent {
-	width:               800px;
-	padding-top:           5px;
-	padding-bottom:        5px;
-	background-color:  #675c47;
-	margin-left:          auto;
-	margin-right:         auto;
 }
