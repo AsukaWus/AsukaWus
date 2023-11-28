@@ -71,3 +71,8 @@ a:visited {
     height: 80px;
     background-color: #ccbb00;
     }
+
+.drinks {
+    background-color: #efe5d0;
+    padding: 15px;
+}
