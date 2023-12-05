@@ -1,0 +1,12 @@
+header {
+  background-color: #000000;
+  
+  height:           108px;
+  border-spacing:   10px;
+}
+
+body { 
+  background-color: #000000;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
