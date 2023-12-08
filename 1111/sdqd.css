@@ -1,0 +1,102 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-image: url('header-background.jpg'); /* Replace with your actual image */
+background-size: cover;
+background-position: center;
+color: white;
+text-align: center;
+padding: 100px;
+}
+
+.hero-text {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.hero-text h1 {
+font-size: 3em;
+margin-bottom: 20px;
+}
+
+.hero-text p {
+font-size: 1.2em;
+margin: 0;
+}
+
+.black-section {
+background-color: #333;
+color: white;
+padding: 50px 0;
+text-align: center;
+}
+
+.section-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.black-section h2 {
+font-size: 2em;
+margin-bottom: 20px;
+}
+
+.black-section p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+.button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #4CAF50;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+transition: background-color 0.3s ease;
+}
+
+.button:hover {
+background-color: #45a049;
+}
+
+.featured-activities {
+background-color: #f5f5f5;
+padding: 50px 0;
+text-align: center;
+}
+
+.activity {
+margin-bottom: 40px;
+}
+
+.activity img {
+max-width: 100%;
+border-radius: 8px;
+}
+
+.activity h3 {
+margin: 15px 0;
+}
+
+.plan-your-visit {
+background-color: #333;
+color: white;
+padding: 60px 0;
+text-align: center;
+}
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
