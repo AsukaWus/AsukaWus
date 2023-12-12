@@ -1,0 +1,251 @@
+ header {
+    width: 100%;
+    background-color: #000000;
+  }
+   header .header_top {
+    width: 90%;
+    margin: 0 auto;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+  }
+   header .header_top .logo a {
+    display: flex;
+    line-height: 34px;
+    font-size: 14px;
+  }
+   header .header_top .logo a img {
+    height: 34px;
+  }
+   header .header_top .logo a span {
+    padding-left: 10px;
+    color: #fff;
+  }
+   header .header_top .search ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+   header .header_top .search ul li {
+    height: 55px;
+    padding: 0 15px;
+    line-height: 55px;
+  }
+   header .header_top .search ul li:first-child {
+    border-right: 1px solid #cecece;
+  }
+   header .header_top .search ul li a {
+    position: relative;
+    color: #fff;
+    padding-left: 20px;
+    font-size: 12px;
+  }
+   header .header_top .search ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background: url('../icon/search.png') center no-repeat;
+    background-size: contain;
+  }
+   header .header_top .search ul li:last-child a::before {
+    background-image: url('../icon/menu.png');
+  }
+   main .banner {
+    position: relative;
+    width: 100%;
+  }
+   main .banner img {
+    width: 100%;
+    vertical-align: bottom;
+    height: 365px;
+  }
+   main .banner .banner_text {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+  }
+   main .banner .banner_text p {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+   main .banner .banner_text p a {
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+  }
+   main .banner .banner_text p span {
+    padding-left: 24px;
+    display: inline-block;
+    width: 110px;
+    color: #fff;
+    font-size: 12px;
+  }
+   main nav {
+    background-color: #000000;
+    height: 56px;
+  }
+   main nav .nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+   main nav .nav .nav_left {
+    height: 100%;
+  }
+   main nav .nav .nav_left ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    line-height: 56px;
+  }
+   main nav .nav .nav_left ul li {
+    position: relative;
+    height: 100%;
+  }
+   main nav .nav .nav_left ul li a {
+    position: relative;
+    display: block;
+    color: #fff;
+    height: 100%;
+    font-size: 12px;
+    padding: 0 20px;
+    font-weight: 600;
+  }
+   main nav .nav .nav_left ul li a::after {
+    content: '';
+    position: absolute;
+    background: url('../icon/down.png') right no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+    right: 5px;
+    top: 23px;
+  }
+   main nav .nav .nav_left ul li:hover {
+    background-color: #252525;
+  }
+   main nav .nav .nav_left ul li:hover .submenu {
+    display: block;
+  }
+   main nav .nav .nav_left ul li .submenu {
+    position: absolute;
+    display: none;
+  }
+   main nav .nav .nav_left ul li .submenu ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 36px;
+  }
+   main nav .nav .nav_left ul li .submenu ul .submenu_li {
+    position: relative;
+    width: 200px;
+  }
+   main nav .nav .nav_left ul li .submenu ul .submenu_li a {
+    font-size: 10px;
+    background-color: #252525;
+  }
+   main nav .nav .nav_left ul li .submenu ul .submenu_li a::after {
+    top: 16px;
+    background-image: url('../icon/caret-right.png');
+  }
+   main nav .nav .nav_left ul li .submenu ul .submenu_li:hover .sm_list {
+    display: block;
+  }
+   main nav .nav .nav_left ul li .submenu ul .submenu_li:hover a {
+    background-color: #436023;
+  }
+   main nav .nav .nav_left ul li .submenu ul .submenu_li .sm_list {
+    display: none;
+    position: absolute;
+    right: -180px;
+    top: 0;
+    z-index: 10;
+  }
+   main nav .nav .nav_left ul li .submenu ul .submenu_li .sm_list ul li {
+    width: 180px;
+  }
+   main nav .nav .nav_left ul li .submenu ul .submenu_li .sm_list ul li a {
+    background-color: #252525;
+  }
+   main nav .nav .nav_left ul li .submenu ul .submenu_li .sm_list ul li a::after {
+    background-image: none;
+  }
+   main nav .nav .nav_left ul li .submenu ul .submenu_li .sm_list ul li:hover a {
+    background-color: #436023;
+  }
+   main nav .nav .nav_left ul li:last-of-type .submenu ul li:nth-of-type(1) a::after {
+    background-image: none;
+  }
+   main nav .nav .nav_left ul li:last-of-type .submenu ul li:nth-of-type(2) a::after {
+    background-image: none;
+  }
+   main nav .nav .nav_left ul li:last-of-type .submenu ul li:nth-of-type(3) a::after {
+    background-image: none;
+  }
+   main nav .nav .nav_left ul li:last-of-type .submenu ul li:nth-of-type(6) a::after {
+    background-image: none;
+  }
+   main nav .nav .nav_left ul li:nth-of-type(2) .submenu ul li:nth-of-type(9) a::after {
+    background-image: none;
+  }
+   main nav .nav .nav_left ul li:nth-of-type(2) .submenu ul li:nth-of-type(10) a::after {
+    background-image: none;
+  }
+   main nav .nav .nav_right ul {
+    display: flex;
+    height: 56px;
+  }
+   main nav .nav .nav_right ul li {
+    margin-left: 5px;
+  }
+   main nav .nav .nav_right ul li a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 0 20px;
+  }
+   main nav .nav .nav_right ul li a img {
+    width: 20px;
+  }
+   main nav .nav .nav_right ul li a span {
+    font-size: 10px;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+   main nav .nav .nav_right ul li:nth-child(2) a {
+    position: relative;
+    background-color: #4d4d4d;
+  }
+   main nav .nav .nav_right ul li:nth-child(2) a::before {
+    content: '2';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    color: #fff;
+    font-size: 8px;
+    background-color: #c60606;
+    text-align: center;
+    line-height: 8px;
+    top: 30px;
+    right: 22px;
+  }
+   main nav .nav .nav_right ul li:hover a {
+    background-color: #4d4d4d;
+  }
