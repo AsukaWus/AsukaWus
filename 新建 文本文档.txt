@@ -1,4 +1,4 @@
-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
+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
 
 echo "# AsukaWus" >> README.md
 git init
